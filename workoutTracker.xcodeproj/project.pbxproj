@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E1BE62925120F01008B4D6F /* LegsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1BE62825120F01008B4D6F /* LegsTableViewController.swift */; };
+		0E1BE62B25121188008B4D6F /* BackAndBicepsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1BE62A25121188008B4D6F /* BackAndBicepsTableViewController.swift */; };
+		0E1BE62D25121326008B4D6F /* ShouldersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1BE62C25121326008B4D6F /* ShouldersTableViewController.swift */; };
 		0E4AE36A2510AC490005DED6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4AE3692510AC490005DED6 /* AppDelegate.swift */; };
 		0E4AE36C2510AC490005DED6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4AE36B2510AC490005DED6 /* SceneDelegate.swift */; };
 		0E4AE36E2510AC490005DED6 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4AE36D2510AC490005DED6 /* MenuViewController.swift */; };
@@ -16,10 +19,9 @@
 		0E4AE3792510AC4A0005DED6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E4AE3772510AC4A0005DED6 /* LaunchScreen.storyboard */; };
 		0E4AE3842510AC4A0005DED6 /* workoutTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4AE3832510AC4A0005DED6 /* workoutTrackerTests.swift */; };
 		0E4AE38F2510AC4A0005DED6 /* workoutTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4AE38E2510AC4A0005DED6 /* workoutTrackerUITests.swift */; };
-		0E4AE39D2510B5490005DED6 /* WorkoutOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4AE39C2510B5490005DED6 /* WorkoutOneViewController.swift */; };
-		0E4AE39F2510BBC00005DED6 /* WorkoutTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4AE39E2510BBC00005DED6 /* WorkoutTwoViewController.swift */; };
-		0E4AE3A12510BBD60005DED6 /* WorkoutThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4AE3A02510BBD60005DED6 /* WorkoutThreeViewController.swift */; };
-		0E4AE3A32510BBEB0005DED6 /* WorkoutFourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4AE3A22510BBEB0005DED6 /* WorkoutFourViewController.swift */; };
+		0EDB034C2511FD9900388E78 /* ExcersizeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDB034B2511FD9900388E78 /* ExcersizeTableViewCell.swift */; };
+		0EDB034E2512056400388E78 /* ChestAndTricepsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDB034D2512056400388E78 /* ChestAndTricepsTableViewController.swift */; };
+		0EDB03502512063A00388E78 /* Excersize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDB034F2512063A00388E78 /* Excersize.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E1BE62825120F01008B4D6F /* LegsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegsTableViewController.swift; sourceTree = "<group>"; };
+		0E1BE62A25121188008B4D6F /* BackAndBicepsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BackAndBicepsTableViewController.swift; path = workoutTracker/Views/BackAndBicepsTableViewController.swift; sourceTree = SOURCE_ROOT; };
+		0E1BE62C25121326008B4D6F /* ShouldersTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShouldersTableViewController.swift; sourceTree = "<group>"; };
 		0E4AE3662510AC490005DED6 /* workoutTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = workoutTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E4AE3692510AC490005DED6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0E4AE36B2510AC490005DED6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -55,10 +60,9 @@
 		0E4AE38A2510AC4A0005DED6 /* workoutTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = workoutTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E4AE38E2510AC4A0005DED6 /* workoutTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = workoutTrackerUITests.swift; sourceTree = "<group>"; };
 		0E4AE3902510AC4A0005DED6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0E4AE39C2510B5490005DED6 /* WorkoutOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutOneViewController.swift; sourceTree = "<group>"; };
-		0E4AE39E2510BBC00005DED6 /* WorkoutTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutTwoViewController.swift; sourceTree = "<group>"; };
-		0E4AE3A02510BBD60005DED6 /* WorkoutThreeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutThreeViewController.swift; sourceTree = "<group>"; };
-		0E4AE3A22510BBEB0005DED6 /* WorkoutFourViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutFourViewController.swift; sourceTree = "<group>"; };
+		0EDB034B2511FD9900388E78 /* ExcersizeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ExcersizeTableViewCell.swift; path = workoutTracker/ViewControllers/ExcersizeTableViewCell.swift; sourceTree = SOURCE_ROOT; };
+		0EDB034D2512056400388E78 /* ChestAndTricepsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChestAndTricepsTableViewController.swift; sourceTree = "<group>"; };
+		0EDB034F2512063A00388E78 /* Excersize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Excersize.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,11 +145,12 @@
 		0E4AE3A52510BC1D0005DED6 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				0E1BE62A25121188008B4D6F /* BackAndBicepsTableViewController.swift */,
 				0E4AE36D2510AC490005DED6 /* MenuViewController.swift */,
-				0E4AE39C2510B5490005DED6 /* WorkoutOneViewController.swift */,
-				0E4AE39E2510BBC00005DED6 /* WorkoutTwoViewController.swift */,
-				0E4AE3A02510BBD60005DED6 /* WorkoutThreeViewController.swift */,
-				0E4AE3A22510BBEB0005DED6 /* WorkoutFourViewController.swift */,
+				0EDB034D2512056400388E78 /* ChestAndTricepsTableViewController.swift */,
+				0EDB034B2511FD9900388E78 /* ExcersizeTableViewCell.swift */,
+				0E1BE62825120F01008B4D6F /* LegsTableViewController.swift */,
+				0E1BE62C25121326008B4D6F /* ShouldersTableViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -163,6 +168,7 @@
 			isa = PBXGroup;
 			children = (
 				0E4AE3722510AC490005DED6 /* workoutTracker.xcdatamodeld */,
+				0EDB034F2512063A00388E78 /* Excersize.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -298,14 +304,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E4AE3A32510BBEB0005DED6 /* WorkoutFourViewController.swift in Sources */,
-				0E4AE3A12510BBD60005DED6 /* WorkoutThreeViewController.swift in Sources */,
 				0E4AE36E2510AC490005DED6 /* MenuViewController.swift in Sources */,
 				0E4AE36A2510AC490005DED6 /* AppDelegate.swift in Sources */,
+				0E1BE62925120F01008B4D6F /* LegsTableViewController.swift in Sources */,
+				0E1BE62D25121326008B4D6F /* ShouldersTableViewController.swift in Sources */,
 				0E4AE3742510AC490005DED6 /* workoutTracker.xcdatamodeld in Sources */,
+				0EDB034E2512056400388E78 /* ChestAndTricepsTableViewController.swift in Sources */,
 				0E4AE36C2510AC490005DED6 /* SceneDelegate.swift in Sources */,
-				0E4AE39D2510B5490005DED6 /* WorkoutOneViewController.swift in Sources */,
-				0E4AE39F2510BBC00005DED6 /* WorkoutTwoViewController.swift in Sources */,
+				0EDB034C2511FD9900388E78 /* ExcersizeTableViewCell.swift in Sources */,
+				0E1BE62B25121188008B4D6F /* BackAndBicepsTableViewController.swift in Sources */,
+				0EDB03502512063A00388E78 /* Excersize.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
