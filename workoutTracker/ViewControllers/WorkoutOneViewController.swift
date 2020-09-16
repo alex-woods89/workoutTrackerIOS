@@ -12,7 +12,7 @@ class WorkoutOneViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        print("statement")
         // Do any additional setup after loading the view.
     }
     
